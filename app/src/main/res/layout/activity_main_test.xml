@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+<LinearLayout
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.oulu.lock.MainActivity">
+    <Button
+        android:id="@+id/search"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="扫描"/>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:orientation="horizontal">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="设备名称为："/>
+    <TextView
+        android:id="@+id/devicesinfo1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+    </LinearLayout>
+    <EditText
+        android:id="@+id/password"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="密码"/>
+    <Button
+        android:id="@+id/login"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="登录" />
+
+    <Button
+        android:id="@+id/token"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="获取令牌" />
+    <Button
+        android:id="@+id/barttery"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="获取电量" />
+    <Button
+        android:id="@+id/getlockstatues"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="获取锁状态" />
+    <Button
+        android:id="@+id/unlockaction"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="开锁" />
+    <Button
+        android:id="@+id/lockaction"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="关锁" />
+    <EditText
+        android:id="@+id/devicesname"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="设备名"/>
+    <Button
+        android:id="@+id/modifymane"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="修改广播名称" />
+    <EditText
+        android:id="@+id/editpassword"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="新密码"/>
+    <Button
+        android:id="@+id/modifypassword"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="修改密码" />
+</LinearLayout>
+</ScrollView>

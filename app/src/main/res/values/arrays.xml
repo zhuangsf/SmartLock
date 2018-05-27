@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="home_list_down_title">
+        <item>账号绑定</item>
+        <item>配对信息</item>
+        <item>固件升级</item>
+        <item>关于</item>
+    </string-array>
+    <string-array name="home_list_top_title">
+        <item>个人资料修改</item>
+    </string-array>
+</resources>
